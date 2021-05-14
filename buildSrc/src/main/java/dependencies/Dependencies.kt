@@ -8,10 +8,10 @@ object Versions {
 }
 
 object Libs {
-    const val androidGradlePlugin = "com.android.tools.build:gradle:4.1.0"
+    const val androidGradlePlugin = "com.android.tools.build:gradle:4.1.3"
 
     object Kotlin {
-        private const val version = "1.3.72"
+        private const val version = "1.5.0"
         const val stdlib = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$version"
         const val plugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$version"
     }
@@ -20,7 +20,7 @@ object Libs {
         const val appcompat = "androidx.appcompat:appcompat:1.2.0"
         const val constraintlayout = "androidx.constraintlayout:constraintlayout:2.0.4"
         const val core_ktx = "androidx.core:core-ktx:1.3.2"
-        const val recyclerview = "androidx.recyclerview:recyclerview:1.1.0"
+        const val recyclerview = "androidx.recyclerview:recyclerview:1.2.0"
 
         object Benchmark {
             private const val version = "1.0.0"
@@ -35,6 +35,6 @@ object Libs {
     }
 
     object Test {
-        const val junit = "junit:junit:4.12"
+        const val junit = "junit:junit:4.13"
     }
 }
